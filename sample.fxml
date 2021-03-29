@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="667.0" vgap="10" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="559.0" prefWidth="590.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="49.0" layoutY="7.0" prefHeight="42.0" prefWidth="475.0" text="Scramble Point Calculator" textAlignment="CENTER" textFill="#9e9e9e">
+               <font>
+                  <Font name="Eras Bold ITC" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="253.0" layoutY="81.0" mnemonicParsing="false" text="Calculate">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField alignment="CENTER" disable="true" layoutX="16.0" layoutY="478.0" prefHeight="56.0" prefWidth="541.0" promptText="Previously Entered Words" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TextField>
+            <Label alignment="CENTER" layoutX="54.0" layoutY="49.0" prefHeight="25.0" prefWidth="466.0" style="-fx-background-color: white;" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="16.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="73.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="73.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="131.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="131.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="188.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="188.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="247.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="247.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="304.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="304.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="559.0" prefWidth="590.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="49.0" layoutY="7.0" prefHeight="42.0" prefWidth="475.0" text="Scramble Point Calculator" textAlignment="CENTER" textFill="#9e9e9e">
+               <font>
+                  <Font name="Eras Bold ITC" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="253.0" layoutY="81.0" mnemonicParsing="false" text="Calculate">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField alignment="CENTER" disable="true" layoutX="16.0" layoutY="478.0" prefHeight="56.0" prefWidth="541.0" promptText="Previously Entered Words" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TextField>
+            <Label alignment="CENTER" layoutX="54.0" layoutY="49.0" prefHeight="25.0" prefWidth="466.0" style="-fx-background-color: white;" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="16.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="73.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="73.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="131.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="131.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="188.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="188.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="245.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="245.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="302.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="302.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="15.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="15.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="72.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="72.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="130.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="130.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="187.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="187.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="244.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="244.0" layoutY="197.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="301.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="301.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="359.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="359.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="417.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="417.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="475.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="475.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="358.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="359.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="416.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="416.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="472.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="472.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="15.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="72.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="130.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="187.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="244.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="302.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="359.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Button layoutX="417.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="Button" />
+            <Label layoutX="16.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="130.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="188.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="245.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="302.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="417.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="input" layoutX="10.0" layoutY="10.0" prefHeight="559.0" prefWidth="590.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="49.0" layoutY="7.0" prefHeight="42.0" prefWidth="475.0" text="Scramble Point Calculator" textAlignment="CENTER" textFill="#9e9e9e">
+               <font>
+                  <Font name="Eras Bold ITC" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="calculate" layoutX="353.0" layoutY="82.0" mnemonicParsing="false" onAction="#calculateButton" text="Calculate" textFill="#1dc300">
+               <font>
+                  <Font name="Eras Bold ITC" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="A" alignment="CENTER" layoutX="16.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="9">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="a" layoutX="16.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="A 1" />
+            <Label fx:id="B" alignment="CENTER" layoutX="73.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="b" layoutX="73.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="B 3" />
+            <Label fx:id="C" alignment="CENTER" layoutX="131.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="c" layoutX="131.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="C 3" />
+            <Label fx:id="D" alignment="CENTER" layoutX="188.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="4">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="d" layoutX="188.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="D 2" />
+            <Label fx:id="E" alignment="CENTER" layoutX="245.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="12">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="e" layoutX="245.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="E 1" />
+            <Label fx:id="F" alignment="CENTER" layoutX="302.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="f" layoutX="302.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="F 4" />
+            <Label fx:id="J" alignment="CENTER" layoutX="15.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="j" layoutX="15.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="J 8" />
+            <Label fx:id="K" alignment="CENTER" layoutX="72.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="1" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="k" layoutX="72.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="K 5" />
+            <Label fx:id="L" alignment="CENTER" layoutX="130.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="4">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="l" layoutX="130.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="L 1" />
+            <Label fx:id="M" alignment="CENTER" layoutX="187.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="m" layoutX="187.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="M 3" />
+            <Label fx:id="N" alignment="CENTER" layoutX="244.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="6">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="n" layoutX="244.0" layoutY="197.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="N 1" />
+            <Label fx:id="O" alignment="CENTER" layoutX="301.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="8">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="o" layoutX="301.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="O 1" />
+            <Label fx:id="G" alignment="CENTER" layoutX="359.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="3">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="g" layoutX="359.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="G 2" />
+            <Label fx:id="H" alignment="CENTER" layoutX="417.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="h" layoutX="417.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="H 4" />
+            <Label fx:id="I" alignment="CENTER" layoutX="475.0" layoutY="167.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="8">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="i" layoutX="475.0" layoutY="117.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="I 1" />
+            <Label fx:id="P" alignment="CENTER" layoutX="358.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="p" layoutX="359.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="P 3" />
+            <Label fx:id="Q" alignment="CENTER" layoutX="416.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="q" layoutX="416.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="Q 10" />
+            <Button fx:id="r" layoutX="472.0" layoutY="196.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="R 1" />
+            <Label fx:id="R" alignment="CENTER" layoutX="472.0" layoutY="246.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="6">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="s" layoutX="15.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="S 1" />
+            <Button fx:id="t" layoutX="72.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="T 1" />
+            <Button fx:id="u" layoutX="130.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="U 1" />
+            <Button fx:id="v" layoutX="187.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="V 4" />
+            <Button fx:id="w" layoutX="244.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="W 4" />
+            <Button layoutX="302.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="X 8" fx:id="x" />
+            <Button fx:id="y" layoutX="359.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="Y 4" />
+            <Button fx:id="z" layoutX="417.0" layoutY="274.0" mnemonicParsing="false" onAction="#alphabetButton" prefHeight="42.0" prefWidth="52.0" text="Z 10" />
+            <Label fx:id="S" alignment="CENTER" layoutX="16.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="4">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="T" alignment="CENTER" layoutX="73.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="6">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="U" alignment="CENTER" layoutX="130.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="4">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="V" alignment="CENTER" layoutX="187.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="W" alignment="CENTER" layoutX="245.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="X" alignment="CENTER" layoutX="302.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Y" alignment="CENTER" layoutX="360.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Z" alignment="CENTER" layoutX="417.0" layoutY="323.0" prefHeight="6.0" prefWidth="52.0" style="-fx-background-color: white;" text="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="point" alignment="CENTER" layoutX="220.0" layoutY="359.0" prefHeight="56.0" prefWidth="280.0" style="-fx-background-color: WHITE;" text="YOU SCORED !" textAlignment="CENTER">
+               <font>
+                  <Font name="Eras Bold ITC" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="367.0" text="POINTS:" textAlignment="CENTER" textFill="#fcfcfc">
+               <font>
+                  <Font name="Eras Bold ITC" size="34.0" />
+               </font>
+            </Label>
+            <Label fx:id="history" alignment="CENTER" layoutX="24.0" layoutY="453.0" prefHeight="62.0" prefWidth="525.0" style="-fx-background-color: WHITE;" text="PREVIOUS WORDS" textAlignment="CENTER">
+               <font>
+                  <Font name="Eras Bold ITC" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="restart" layoutX="443.0" layoutY="81.0" mnemonicParsing="false" onAction="#restartButtonPressed" prefHeight="27.0" prefWidth="79.0" text="Reset" textFill="RED">
+               <font>
+                  <Font name="Eras Bold ITC" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="error" alignment="CENTER" layoutX="74.0" layoutY="85.0" prefHeight="20.0" prefWidth="255.0" style="-fx-background-color: white;" text="Error Display" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman Bold" size="11.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userDisplay" layoutX="46.0" layoutY="49.0" prefHeight="25.0" prefWidth="466.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
